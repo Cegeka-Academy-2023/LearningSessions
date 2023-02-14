@@ -1,6 +1,6 @@
-﻿namespace PetShelterDemo.ExternalDependencies;
+﻿namespace PetShelterDemo.DAL;
 
-internal sealed class Database
+public sealed class Database
 {
     public static bool ConnectionIsDown = false;
     private static readonly TimeSpan Latency = TimeSpan.FromMilliseconds(500);

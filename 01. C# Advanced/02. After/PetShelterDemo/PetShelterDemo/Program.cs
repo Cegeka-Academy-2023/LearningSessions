@@ -10,8 +10,8 @@
 ////    }
 //// }
 
+using PetShelterDemo.DAL;
 using PetShelterDemo.Domain;
-using PetShelterDemo.ExternalDependencies;
 
 var shelter = new PetShelter();
 

@@ -1,4 +1,4 @@
-﻿using PetShelterDemo.ExternalDependencies;
+﻿using PetShelterDemo.DAL;
 
 namespace PetShelterDemo.Domain;
 
