@@ -1,6 +1,4 @@
-﻿using PetShelterDemo.Domain;
-
-namespace PetShelterDemo.ExternalDependencies;
+﻿namespace PetShelterDemo.ExternalDependencies;
 
 internal sealed class Database
 {

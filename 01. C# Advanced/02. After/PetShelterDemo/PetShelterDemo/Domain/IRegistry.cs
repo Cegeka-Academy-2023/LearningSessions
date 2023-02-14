@@ -1,6 +1,4 @@
-﻿using System.Threading.Tasks;
-
-namespace PetShelterDemo.Domain
+﻿namespace PetShelterDemo.Domain
 {
     public interface IRegistry<T> where T: INamedEntity
     {

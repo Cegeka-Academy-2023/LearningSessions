@@ -28,6 +28,7 @@ try
             {
                 { "Register a newly rescued pet", RegisterPet },
                 { "Donate", Donate },
+                { "See current donations total", SeeDonations },
                 { "See our residents", SeePets },
                 { "Break our database connection", BreakDatabaseConnection },
                 { "Leave:(", Leave }
@@ -54,9 +55,27 @@ void RegisterPet()
 
 void Donate()
 {
+    Console.WriteLine("What's your name? (So we can credit you.)");
+    var name = ReadString();
+
+    Console.WriteLine("What's your personal Id? (No, I don't know what GDPR is. Why do you ask?)");
+    var id = ReadString();
+    var person = new Person(name, id);
+
     Console.WriteLine("How much would you like to donate? (RON)");
-    var donation = ReadInteger();
-    shelter.Donate(donation);
+    var amountInRon = ReadInteger();
+    shelter.Donate(person, amountInRon);
+}
+
+void SeeDonations()
+{
+    Console.WriteLine($"Our current donation total is {shelter.GetTotalDonationsInRON()}RON");
+    Console.WriteLine("Special thanks to our donors:");
+    var donors = shelter.GetAllDonors();
+    foreach (var donor in donors)
+    {
+        Console.WriteLine(donor.Name);
+    }
 }
 
 void SeePets()

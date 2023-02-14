@@ -4,7 +4,7 @@ namespace PetShelterDemo.Domain
 {
     internal sealed class Registry<T> : IRegistry<T> where T : INamedEntity
     {
-        private readonly Database database;
+        private readonly Database database; // use DB after async await
         public Registry(Database database)
         {
             this.database = database;
