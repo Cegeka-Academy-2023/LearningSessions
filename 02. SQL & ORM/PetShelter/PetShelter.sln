@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33213.308
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PetShelter", "PetShelter\PetShelter.csproj", "{A2889822-04C0-410C-9A3A-413CA298385E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PetShelter.DataAccessLayer", "PetShelter.DataAccessLayer\PetShelter.DataAccessLayer.csproj", "{4EFAA5CA-0F4C-48DD-983C-7853DA41EA79}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A2889822-04C0-410C-9A3A-413CA298385E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A2889822-04C0-410C-9A3A-413CA298385E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A2889822-04C0-410C-9A3A-413CA298385E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A2889822-04C0-410C-9A3A-413CA298385E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4EFAA5CA-0F4C-48DD-983C-7853DA41EA79}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4EFAA5CA-0F4C-48DD-983C-7853DA41EA79}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4EFAA5CA-0F4C-48DD-983C-7853DA41EA79}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4EFAA5CA-0F4C-48DD-983C-7853DA41EA79}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {585F9033-5C83-4D28-9CAA-68001DA2341C}
+	EndGlobalSection
+EndGlobal
