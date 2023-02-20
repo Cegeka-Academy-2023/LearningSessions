@@ -1,4 +1,4 @@
-﻿namespace PetShelterDemo.Domain
+﻿namespace PetShelter.Domain
 {
     public interface INamedEntity
     {

@@ -1,14 +1,26 @@
-﻿namespace PetShelterDemo.Domain
-{
-    public class Pet : INamedEntity
-    {
-        public string Name { get; }
-        public string Description { get; }
+﻿namespace PetShelter.Domain;
 
-        public Pet(string name, string description)
-        {
-            Name = name;
-            Description = description;
-        }
+public class Pet : INamedEntity
+{
+    public string Description { get; }
+
+    public int Id { get; }
+
+    public string ImageUrl { get; set; }
+
+    public bool IsHealthy { get; set; }
+
+    public string Name { get; }
+
+    public DateTime BirthDate { get; }
+
+    public PetType Type { get; }
+
+    public decimal WeightInKg { get; set; }
+
+    public Pet(string name, DateTime birthDate, PetType type, int id = 0)
+    {
+        Name = name;
+        BirthDate = birthDate;
     }
 }
