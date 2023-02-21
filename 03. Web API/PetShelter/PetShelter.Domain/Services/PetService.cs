@@ -49,7 +49,7 @@ namespace PetShelter.Domain.Services
             }
             pet.Rescuer = await _personRepository.GetById(pet.RescuerId.Value);
 
-            if (pet.Adopter!= null)
+            if (pet.AdopterId.HasValue)
             {
                 pet.Adopter = await _personRepository.GetById(pet.AdopterId.Value);
             }
