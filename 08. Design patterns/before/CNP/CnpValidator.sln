@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33213.308
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CnpValidator", "CnpValidator\CnpValidator.csproj", "{B5067D3B-5A6D-44D8-8AD9-80A8D6739064}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B5067D3B-5A6D-44D8-8AD9-80A8D6739064}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B5067D3B-5A6D-44D8-8AD9-80A8D6739064}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B5067D3B-5A6D-44D8-8AD9-80A8D6739064}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B5067D3B-5A6D-44D8-8AD9-80A8D6739064}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2FF458FC-FFEA-4B96-9F95-40D2CD9CCF5A}
+	EndGlobalSection
+EndGlobal
